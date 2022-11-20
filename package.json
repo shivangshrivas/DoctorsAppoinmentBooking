@@ -1,0 +1,34 @@
+{
+  "name": "doctorsappoinmentbookingsystem",
+  "version": "1.0.0",
+  "description": "doctor appoinment booking system nodejs mysql",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "doctors",
+    "appoinment",
+    "booking",
+    "system",
+    "node.js",
+    "mysql",
+    "elasticsearch",
+    "messenger",
+    "bot"
+  ],
+  "author": "harry farm",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.20"
+  }
+}
